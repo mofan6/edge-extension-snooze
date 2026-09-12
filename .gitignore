@@ -1,0 +1,8 @@
+/dist/
+/artifacts/
+/fixtures/
+*.exe
+*.pdb
+*.preferences.bak
+*.tmp
+.vs/

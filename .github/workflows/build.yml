@@ -1,0 +1,23 @@
+name: Windows build and tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build the single EXE
+        shell: powershell
+        run: .\scripts\build.ps1
+      - name: Test on temporary profiles
+        shell: powershell
+        run: .\scripts\test.ps1
