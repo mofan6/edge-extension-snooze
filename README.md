@@ -1,8 +1,10 @@
-# Edge 扩展提醒延期 · Edge Snooze
+# Edge 扩展提醒延期 · Microsoft Edge Extension Snooze
 
 将 Microsoft Edge 的“关闭开发人员模式下的扩展”提醒，自定义延后 **1～1000 周**。
 
 适合需要使用解压扩展、又不想每两周处理一次提醒的用户。保留开发者模式和扩展设置，提供自动查找配置、自定义路径、备份及撤销。
+
+**Postpone Microsoft Edge developer-mode extension warnings by 1–1000 weeks.** A portable Windows utility for users of unpacked extensions, with profile discovery, preferences backup and scoped undo.
 
 **[下载 Windows 单文件 EXE](https://github.com/mofan6/edge-extension-snooze/releases/latest/download/EdgeReminder.exe)** · **[所有版本](https://github.com/mofan6/edge-extension-snooze/releases)** · **[逻辑与实现原理](docs/how-it-works.zh-CN.md)**
 
